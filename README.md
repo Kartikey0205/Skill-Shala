@@ -1,0 +1,2 @@
+# Skill-Shala
+This website is my first real world project as my seniors and respected Director sir of my University (i.e. JECRC UNIVERSITY) has given me a chance to show my skills and ask me to make a simple web-page for their upcoming event in future . So , keeping that in my mind finally I had made a demo web-page .If everything all right then after some update this web-page will be attached with our university's official website .
