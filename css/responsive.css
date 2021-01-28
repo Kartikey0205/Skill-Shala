@@ -1,0 +1,134 @@
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .firstHalf {
+        margin-top: -6rem;
+    }
+    
+    .text-small {
+        font-size: 16px;
+    }
+    .secondHalf img{
+        width: 20rem;
+        /* padding: 22px; */
+        margin-left: -77px;
+        height: 24rem;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+        font-size: 23px;
+
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras {
+        padding: 0px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 370px){
+    .logo img{
+        /* filter: invert(1); */
+        width: 8rem;
+        /* border: 3px solid white; */
+        /* border-radius: 50px; */
+        margin: 5px;
+    }
+    .secondHalf img{
+        height: 20rem;
+        width: 14rem;
+        margin-left: -70px;
+    }
+    .main{
+     padding: 15px 0px;
+    }
+    .caption {
+        width: 215px;
+        /* padding: 5px; */
+        /* margin: 0px 8px; */
+        height: 200px;
+        /* background-color: black; */
+        background: linear-gradient(45deg, black, transparent);
+        color: white;
+        position: absolute;
+        top: 0;
+        /* left: 10%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .box {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+    }
+    .box img {
+        width: 100%;
+        height: 100%;
+    }
+footer{
+    font-size: 18px;
+}
+}
+
+
+@media (max-width:801px)
+{
+    .contact{
+        padding: 10px;
+    }
+    .contact .form{
+        flex-direction: column;
+    }
+
+    .contact .form .sec{
+margin-bottom: 40px;
+margin-right: 0;
+    }
+    .contact .form .sec.aboutus ,.quicklinks ,.contact2{
+        width: 100%;
+    }
+}
