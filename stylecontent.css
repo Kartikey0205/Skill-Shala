@@ -4,13 +4,19 @@
 }
 
 body{
-    background: linear-gradient(
+    /* background: linear-gradient(
 45deg
-, #96850bc9 ,#021d2d, #0a5d0487);
+, #96850bc9 ,#021d2d, #0a5d0487); */
+background: rgba(0, 0, 0, 0.7) url('../img/background1.jpg') no-repeat center/cover;
+    background-size: cover;
+    background-blend-mode: darken;
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
     text-align: center;
+    text-shadow:3px -2px 4px hsl(26deg 100% 50%);
+    
 }
 
 .main2{
@@ -63,7 +69,7 @@ i:nth-child(1){
     position: absolute;
     bottom: 25px;
     right: -10px;
-    color: black;
+    color: #fcfcfc;
 
 }
 
@@ -71,7 +77,7 @@ i:nth-child(2){
     position: absolute;
     top: -15px;
     left: -15px;
-    color: black;
+    color: #fcfcfc;
 }
 
 @media only screen and (min-width: 700px) and (max-width:1090px){

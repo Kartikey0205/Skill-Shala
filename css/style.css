@@ -73,7 +73,7 @@ html{
 
 .background{
   
-    background: rgba(0, 0, 0, 0.7) url('../img/client.jpg') no-repeat center/cover;
+    background: rgba(0, 0, 0, 0.7) url('../img/background1.jpg') no-repeat center/cover;
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -198,6 +198,7 @@ html{
     transition: all 0.5s;
 }
 .caption h3{
+    text-shadow: 2px -2px 1px red;
     margin: 10px 30px;
     transform: translateY(60px);
     transition: all 1s;
@@ -220,10 +221,13 @@ html{
 }
 .btn2{
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: #ffad25f2;
     border-radius: 10%;
     cursor: pointer;
     text-decoration: none;
+}
+.btn2:hover{
+  background-color: #46fff3;
 }
 
 /* Event end */
